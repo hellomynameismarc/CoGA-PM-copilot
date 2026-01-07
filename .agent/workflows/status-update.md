@@ -3,7 +3,7 @@ description: Write a Status Update - Weekly Team or Executive Update
 ---
 
 1. **Context Setup**
-   - Read `.agent/copilot-rules.md`.
+   - Read `.agent/rules/copilot-rules.md`.
    - Read `.agent/scripts/update-interview.md`.
 
 2. **Conduct Interview**

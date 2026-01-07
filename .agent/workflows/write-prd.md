@@ -3,7 +3,7 @@ description: Write a PRD - Interactive Socratic interview followed by document g
 ---
 
 1. **Context Setup**
-   - Read `.agent/copilot-rules.md` (if available) to understand your role.
+   - Read `.agent/rules/copilot-rules.md` (if available) to understand your role.
    - Read `.agent/scripts/prd-interview.md`.
 
 2. **Conduct Interview**

@@ -3,7 +3,7 @@ description: Create Product Strategy - Interactive Rumelt's Kernel interview wit
 ---
 
 1. **Context Setup**
-   - Read `.agent/copilot-rules.md`.
+   - Read `.agent/rules/copilot-rules.md`.
    - Read `.agent/scripts/strategy-interview.md`.
    - Read `.agent/templates/strategy/strategy-template.md`.
 

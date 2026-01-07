@@ -39,7 +39,7 @@ We separate **Inputs (Context)** from **Outputs (Artifacts)**.
 - **Agent Action**: The Agent writes structured PRDs, Strategy Decks, and Updates here.
 
 ### 3. `.agent/` (The Brain 🧠)
-- System brains (Templates, Personas, Rules). Do not edit.
+- System brains (Templates, Personas, Rules in `.agent/rules/`). Do not edit.
 
 ## 🚀 Quick Start
 

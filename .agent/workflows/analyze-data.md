@@ -3,7 +3,7 @@ description: Analyze Data - Visualize and interpret CSVs or user research
 ---
 
 1. **Context Setup**
-   - Read `.agent/copilot-rules.md`.
+   - Read `.agent/rules/copilot-rules.md`.
    - Ask user for data source (path to CSV or copy-paste data).
 
 2. **Analysis Plan**

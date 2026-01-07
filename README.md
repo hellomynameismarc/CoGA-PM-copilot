@@ -8,10 +8,10 @@ Use these slash commands in your Agent chat to start a task:
 
 | Command | Action | Output Location |
 |:---|:---|:---|
-| `/write-prd` | **Write a PRD**. Interactive interview to clarify problem/solution, then drafts spec. | `product-work/prds/` |
-| `/product-strategy` | **Develop Strategy**. Strategic deep-dive into market, SWOT, and vision. | `product-work/strategy/` |
-| `/analyze-data` | **Analyze Data**. Guidance on querying CSVs and finding insights. | `product-work/data-research/` |
-| `/status-update` | **Status Update**. Drafts weekly or executive updates based on recent work. | `product-work/updates/` |
+| `/write-prd` | **Write a PRD**. Interactive interview to clarify problem/solution, then drafts spec. | `tasks/<task>/product-work-output/` |
+| `/product-strategy` | **Develop Strategy**. Strategic deep-dive into market, SWOT, and vision. | `tasks/<task>/product-work-output/` |
+| `/analyze-data` | **Analyze Data**. Guidance on querying CSVs and finding insights. | `tasks/<task>/product-work-output/` |
+| `/status-update` | **Status Update**. Drafts weekly or executive updates based on recent work. | `tasks/<task>/product-work-output/` |
 
 ## 👥 Expert Reviewers
 
@@ -33,24 +33,26 @@ We separate **Inputs (Context)** from **Outputs (Artifacts)**.
 - Dump **everything** in here: raw CSVs, PDF feedback, messy meeting notes, competitive screenshots, brain dumps.
 - **Agent Action**: The Agent reads this folder to understand *Context*.
 
-### 2. `product-work/` (The Dining Room 🍽️)
+### 2. **Outputs** (The Dining Room 🍽️)
 *Polished Outputs & Artifacts*
-- The Agent generates final, polished documents here.
-- **Agent Action**: The Agent writes structured PRDs, Strategy Decks, and Updates here.
+- The Agent generates final, polished documents.
+- **Location**: `tasks/<task-name>/product-work-output/`.
+- **Agent Action**: Automatically create this folder if it doesn't exist and save files there.
 
 ### 3. `.agent/` (The Brain 🧠)
 - System brains (Templates, Personas, Rules in `.agent/rules/`). Do not edit.
+- **Workflows**: Located in `.agent/workflows/` (pointing to `jobs-to-be-done/`).
 
 ## 🚀 Quick Start
 
 1.  **Prep**: Create `tasks/2026-01-07-my-feature/` and drop your files there.
 2.  **Run**: Type `/write-prd`.
 3.  **Context**: Tell the agent "Context is in `tasks/2026-01-07-my-feature`".
-4.  **Result**: Find your polished PRD in `product-work/prds/`.
+4.  **Process**: The Agent will challenge your assumptions via Socratic questioning, *then* draft the finalized PRD.
 
 | Command | Action | Output Location |
 |:---|:---|:---|
-| `/write-prd` | **Write a PRD**. Interactive interview to clarify problem/solution, then drafts spec. | `product-work/prds/` |
+| `/write-prd` | **Write a PRD**. Interactive interview to clarify problem/solution, then drafts spec. | `tasks/<task>/product-work-output/` |
 
 ## 💡 Philosophy
 This Copilot uses a **Socratic approach**. It won't just "do the work" — it will challenge your assumptions, ask for evidence, and help you refine your thinking *before* generating the final document.

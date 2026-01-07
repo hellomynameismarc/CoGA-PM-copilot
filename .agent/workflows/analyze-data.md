@@ -16,4 +16,4 @@ description: Analyze Data - Visualize and interpret CSVs or user research
    - **Important**: Synthesize findings into a markdown report.
 
 4. **Output**
-   - Save report to `product-work/data-research/YYYY-MM-DD-analysis-topic.md`.
+   - Save report to `YYYY-MM-DD-analysis-topic.md` in `tasks/<current-context-folder>/product-work-output/`.

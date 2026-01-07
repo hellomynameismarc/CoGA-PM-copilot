@@ -14,7 +14,7 @@ description: Write a Status Update - Weekly Team or Executive Update
    - If **Team/Slack**: Read `jobs-to-be-done/04-status-update/templates/slack-update.md`.
    - If **Exec/Email**: Read `jobs-to-be-done/04-status-update/templates/executive-email.md`.
    - Synthesize the interview notes into the template format.
-   - **Important**: Save to `product-work/updates/YYYY-MM-DD-update-type.md`.
+   - **Important**: Save to `YYYY-MM-DD-update-type.md` in `tasks/<current-context-folder>/product-work-output/`.
 
 4. **Review**
    - Output the draft.

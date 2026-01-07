@@ -18,7 +18,7 @@ description: Write a PRD - Interactive Socratic interview followed by document g
    - Default to `jobs-to-be-done/01-write-prd/templates/carls-prd-template.md` if they don't have a preference.
    - Read the selected template.
    - Generate the PRD using the interview context.
-   - **Important**: Save the file to `product-work/prds/YYYY-MM-DD-feature-name.md` (replace placeholders with actual date and slug).
+   - **Important**: Save the file as `YYYY-MM-DD-feature-name-prd.md` in `tasks/<current-context-folder>/product-work-output/`.
 
 4. **Finalize**
    - specificy the path where the file was saved.

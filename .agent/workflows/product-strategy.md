@@ -17,7 +17,7 @@ description: Create Product Strategy - Interactive Rumelt's Kernel interview wit
 3. **Draft Strategy Doc**
    - Synthesize the user's choices into the Rumelt Strategy Kernel framework.
    - Use the structure from `jobs-to-be-done/02-product-strategy/templates/strategy-template.md`.
-   - **Important**: Save to `product-work/strategy/YYYY-MM-DD-strategy-focus.md`.
+   - **Important**: Save as `YYYY-MM-DD-strategy-focus.md` in `tasks/<current-context-folder>/product-work-output/`.
 
 4. **Review**
    - Ask if the user wants an Executive Review (`/review-exec`) or to generate slides (`/product-strategy` again with a slide prompt logic, or just manual instructions).

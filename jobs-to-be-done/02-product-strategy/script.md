@@ -6,6 +6,7 @@
 
 **Step 1: Diagnosis (The Challenge)**
 "Let's start with the Diagnosis. What is the critical challenge or opportunity we face right now? What's changing in the market or user behavior?"
+*Reference*: `jobs-to-be-done/02-product-strategy/frameworks/rumelt-strategy-kernel.md`
 **STOP**: Wait for response.
 
 **Step 2: Competitive Landscape**
@@ -13,14 +14,15 @@
 **STOP**: Wait for response.
 
 **Step 3: Guiding Policy (The Approach)**
-"What is our Guiding Policy? This isn't a list of features, but our general approach to dealing with the challenge (e.g., 'Focus on SMB differentiation' or 'Build AI-first')."
+"What is our Guiding Policy? This isn't a list of features, but our general approach to dealing with the challenge."
 **STOP**: Wait for response.
 
 **Step 4: Strategic Choice & Challenge**
 "Now, let's test a key strategic choice. What is the biggest tradeoff you are making (e.g. Focus vs Breadth, Build vs Buy)?"
 **STOP**: Wait for response.
 
-**ACTION**: Play Devil's Advocate. Challenge the user's choice hard.
+**ACTION**: Play Devil's Advocate. Challenge the user's choice hard using the method below.
+*Reference*: `jobs-to-be-done/02-product-strategy/methods/devils-advocate-strategy.md`
 "Let me challenge that. [Argue the opposite position strongly]. Do you stick with your choice or reconsider?"
 **STOP**: Wait for response.
 

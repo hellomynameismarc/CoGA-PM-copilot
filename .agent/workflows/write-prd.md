@@ -4,18 +4,18 @@ description: Write a PRD - Interactive Socratic interview followed by document g
 
 1. **Context Setup**
    - Read `.agent/rules/copilot-rules.md` (if available) to understand your role.
-   - Read `.agent/scripts/prd-interview.md`.
+   - Read `jobs-to-be-done/01-write-prd/script.md`.
 
 2. **Conduct Interview & Thinking Mode**
    - **Thinking Mode**: First, read all context in `tasks/`. If enough information is present, *propose* the answers to the interview questions for user confirmation.
    - **Narrative Discovery**: Ensure the "Villain" (Problem) and "Hero" (Solution) are clearly defined in the discussion.
-   - Follow the `prd-interview.md` script.
+   - Follow `jobs-to-be-done/01-write-prd/script.md`.
    - Ask questions one by one and wait for user input (unless context allows auto-proposal).
    - Challenge assumptions as instructed in the script.
 
 3. **Draft Document**
-   - Ask the user which template they want to use (List available templates in `.agent/templates/prd/`).
-   - Default to `.agent/templates/prd/carls-prd-template.md` if they don't have a preference.
+   - Ask the user which template they want to use (List available templates in `jobs-to-be-done/01-write-prd/templates/`).
+   - Default to `jobs-to-be-done/01-write-prd/templates/carls-prd-template.md` if they don't have a preference.
    - Read the selected template.
    - Generate the PRD using the interview context.
    - **Important**: Save the file to `product-work/prds/YYYY-MM-DD-feature-name.md` (replace placeholders with actual date and slug).

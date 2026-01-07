@@ -11,10 +11,10 @@ description: Write a Status Update - Weekly Team or Executive Update
    - Ask which Format/Audience is needed: **Team (Slack)** or **Executive (Email)**.
 
 3. **Draft Update**
-   - If **Team/Slack**: Read `.agent/templates/communication-style/slack-update.md`.
-   - If **Exec/Email**: Read `.agent/templates/communication-style/executive-email.md`.
+   - If **Team/Slack**: Read `.agent/templates/updates/slack-update.md`.
+   - If **Exec/Email**: Read `.agent/templates/updates/executive-email.md`.
    - Synthesize the interview notes into the template format.
-   - **Important**: Save to `product-work/communication-style/YYYY-MM-DD-update-type.md`.
+   - **Important**: Save to `product-work/updates/YYYY-MM-DD-update-type.md`.
 
 4. **Review**
    - Output the draft.

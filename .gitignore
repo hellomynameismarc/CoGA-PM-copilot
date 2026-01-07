@@ -1,6 +1,8 @@
-# User content
-product-work/
-tasks/
+# User content - Ignore everything in product-work and tasks EXCEPT .gitkeep
+product-work/**/*
+!product-work/**/.gitkeep
+tasks/**/*
+!tasks/**/.gitkeep
 
 # System files
 .DS_Store

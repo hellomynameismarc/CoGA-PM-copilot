@@ -11,7 +11,7 @@ Use these slash commands in your Agent chat to start a task:
 | `/write-prd` | **Write a PRD**. Interactive interview to clarify problem/solution, then drafts spec. | `product-work/prds/` |
 | `/product-strategy` | **Develop Strategy**. Strategic deep-dive into market, SWOT, and vision. | `product-work/strategy/` |
 | `/analyze-data` | **Analyze Data**. Guidance on querying CSVs and finding insights. | `product-work/data-research/` |
-| `/status-update` | **Status Update**. Drafts weekly or executive updates based on recent work. | `product-work/communication-style/` |
+| `/status-update` | **Status Update**. Drafts weekly or executive updates based on recent work. | `product-work/updates/` |
 
 ## 👥 Expert Reviewers
 

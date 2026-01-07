@@ -8,7 +8,7 @@ description: Analyze Data - Visualize and interpret CSVs or user research
 
 2. **Analysis Plan**
    - Ask: "What specific questions are you trying to answer with this data?"
-   - Read `jobs-to-be-done/03-analyze-data/reviewers/data-analyst.md` to guide the thinking.
+   - Read `jobs-to-be-done/03-analyze-data/reviewers/data_analyst.md` to guide the thinking.
 
 3. **Execution**
    - If CSV: Load the CSV (using python tool if available, or just read text).

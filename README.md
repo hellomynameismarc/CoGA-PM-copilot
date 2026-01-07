@@ -1,2 +1,2 @@
-# CoGA-PM-copilot
+# CoGa - The Product Management Copilot
 Product Management Copilot

@@ -1,0 +1,8 @@
+# User content
+product-work/
+tasks/
+
+# System files
+.DS_Store
+*.log
+.gemini/

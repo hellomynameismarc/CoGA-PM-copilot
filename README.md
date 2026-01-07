@@ -53,4 +53,4 @@ We separate **Inputs (Context)** from **Outputs (Artifacts)**.
 | `/write-prd` | **Write a PRD**. Interactive interview to clarify problem/solution, then drafts spec. | `product-work/prds/` |
 
 ## 💡 Philosophy
-This Copilot uses a **Socratic approach**. It won't just "do the work" — it will challenge your assumptions, ask for evidence, and help you refine your thinking *before* generating the final document. 
+This Copilot uses a **Socratic approach**. It won't just "do the work" — it will challenge your assumptions, ask for evidence, and help you refine your thinking *before* generating the final document.

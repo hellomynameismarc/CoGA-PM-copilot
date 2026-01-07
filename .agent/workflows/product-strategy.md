@@ -7,7 +7,9 @@ description: Create Product Strategy - Interactive Rumelt's Kernel interview wit
    - Read `.agent/scripts/strategy-interview.md`.
    - Read `.agent/templates/strategy/strategy-template.md`.
 
-2. **Conduct Strategy Interview**
+2. **Thinking Mode & Interview**
+   - **Research Phase**: Before the interview, browse validity of competitors if mentioned in `tasks/` or execute a web search if specific competitors are named.
+   - Generate a draft `product-work/strategy/competitive-landscape.md` if context allows.
    - Follow `strategy-interview.md` precisely.
    - For each strategic choice, play the **Devil's Advocate** as instructed in the script.
    - Do NOT skip the challenge phase.

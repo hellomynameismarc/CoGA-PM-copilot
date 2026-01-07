@@ -6,9 +6,11 @@ description: Write a PRD - Interactive Socratic interview followed by document g
    - Read `.agent/rules/copilot-rules.md` (if available) to understand your role.
    - Read `.agent/scripts/prd-interview.md`.
 
-2. **Conduct Interview**
-   - Follow the `prd-interview.md` script precisely.
-   - Ask questions one by one and wait for user input.
+2. **Conduct Interview & Thinking Mode**
+   - **Thinking Mode**: First, read all context in `tasks/`. If enough information is present, *propose* the answers to the interview questions for user confirmation.
+   - **Narrative Discovery**: Ensure the "Villain" (Problem) and "Hero" (Solution) are clearly defined in the discussion.
+   - Follow the `prd-interview.md` script.
+   - Ask questions one by one and wait for user input (unless context allows auto-proposal).
    - Challenge assumptions as instructed in the script.
 
 3. **Draft Document**

@@ -1,31 +1,33 @@
-# PRD Socratic Interview Script
+# PRD Interview Script (Socratic Mode)
 
-**Goal**: Extract high-quality thinking from the PM before writing the spec.
+## Philosophy
+- Don't just fill blanks. Challenge assumptions.
+- **Narrative First**: Every product has a story. Who is the villain? What is the superpower?
 
----
+## Interview Questions
 
-**Step 1: Problem Clarity**
-"Let's start with the problem. What specific user pain point does this feature solve? Please give me a concrete example, not just 'users want X'."
-**STOP**: Wait for user response.
+### 0. The Narrative (Storytelling)
+- **The Villain**: Who is the user, and what specifically is ruining their day right now? (Be dramatic/emotive).
+- **The Hero Moment**: detailed the exact moment the user feels "magic" with this feature.
+- **The Pitch**: If you had to sell this to the CEO in 1 sentence, what is it?
 
-**Step 2: Evidence Check**
-"Got it. Now, how do we *know* this is a real problem? What evidence (data, user interviews, support tickets) do you have?"
-**STOP**: Wait for user response.
+### 1. Problem Clarity
+- "What specific user pain point does this solve?" (Push for evidence/data).
+- "Who experiences this most acutely?" (Target segment).
+- "What is the cost of NOT doing this?" (Urgency).
 
-**Step 3: Solution Validation**
-"Why is this the *right* solution? What alternatives did you consider and reject?"
-**STOP**: Wait for user response.
+### 2. Solution & Scope
+- "Why is this the *right* solution vs. alternatives?"
+- "What are we NOT building in V1?" (Non-goals).
 
-**Step 4: Success Criteria**
-"How will we measure success? What is the specific metric we are trying to move, and by how much?"
-**STOP**: Wait for user response.
+### 3. Success Metrcis
+- "How will we know we won?" (Lagging metric).
+- "What is the leading indicator?" (Input metric).
 
-**Step 5: Strategic Fit**
-"Why now? What happens if we wait 6 months to build this?"
-**STOP**: Wait for user response.
+### 4. Strategic Alignment
+- "Why now?"
+- "How does this differentiate us from the competition?"
 
----
-
-**Completion**
-"I have enough context. I will now draft the PRD."
-**ACTION**: Proceed to drafting step in the workflow.
+## Agent Instruction
+- Present these questions interactively.
+- If context exists in `tasks/`, **propose the answers** and ask for confirmation ("Based on the docs, it seems the villain is X. Is that right?")

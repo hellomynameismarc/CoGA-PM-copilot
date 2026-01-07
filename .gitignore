@@ -1,22 +1,5 @@
 # User content
-# Ignore everything in product-work
-product-work/*
-# Allow subdirectories so git looks inside
-!product-work/*/
-# Ignore everything inside subdirectories
-product-work/*/*
-# Exception for .gitkeep
-!product-work/*/.gitkeep
-
-# Ignore everything in tasks
-tasks/*
-# Allow subdirectories
-!tasks/*/
-# Ignore everything inside subdirectories
-tasks/*/*
-# Exception for .gitkeep
-!tasks/*/.gitkeep
-!tasks/.gitkeep
+# (Rules moved to .git/info/exclude to allow Agent access)
 
 # System files
 .DS_Store

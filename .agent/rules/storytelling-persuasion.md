@@ -53,6 +53,10 @@ This document defines the **mandatory** approach for all agent communications, a
 
 ### When writing PRDs:
 - The **Problem Statement** is a Story. It must have a Victim (User) and a Villain (Pain).
+- The **User Narrative**:
+    - **Format**: Use a "Day in the Life" or "Before vs. After" script.
+    - **Focus**: Show the *emotional* struggle, not just the functional one.
+    - **Technique**: Use sensory details ("User anxiously refreshes the page...") rather than abstract statements ("User experiences latency...").
 - The **Solution** is the Weapon.
 - Do not list features; describe **Capabilities** that defeat the Villain.
 

@@ -6,6 +6,10 @@ Welcome to your AI-powered Product Management workspace. This environment is des
 
 Use these slash commands in your Agent chat to start a task:
 
+### 🌟 How to Start
+Simply say **"Job menu"** or **"What can we do?"** to see the interactive task list.
+You can then just type a number (1, 2, 3...) to kickstart that specific workflow.
+
 | Command | Action | Output Location |
 |:---|:---|:---|
 | `/write-prd` | **Write a PRD**. Interactive interview to clarify problem/solution, then drafts spec. | `tasks/<task>/product-work-output/` |
